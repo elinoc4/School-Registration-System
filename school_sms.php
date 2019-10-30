@@ -15,8 +15,8 @@ include"admin_header.php";
 
 	function nuObjectsSMS( $sender, $number, $msg ){
 		
-  $username = 'ufumzy';
-  $password = 'sms1234#';
+  $username = 'your username on the sms gateway';
+  $password = 'yourpassword on the sms gateway';
   $request ='user='.$username.
           '&pass='.$password.
           '&from='.rawurlencode($sender).
